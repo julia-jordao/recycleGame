@@ -201,6 +201,7 @@ public class Fase extends JFrame {
             return MOVE;
         }
 
+        //to move material
         public Transferable createTransferable(JComponent c) {
             return new StringSelection(((JLabel) c).getText());
         }
